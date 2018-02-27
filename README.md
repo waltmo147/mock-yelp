@@ -1,6 +1,6 @@
 # Project 2
 
-See the course web page for Project 2's requirements: [Project 2](https://github.coecis.cornell.edu/info2300-sp2018/info2300-documents/assignments/project-2/project-2.md) ([PDF](https://github.coecis.cornell.edu/info2300-sp2018/info2300-documents/assignments/project-2/project-2.pdf)).
+See the course web page for Project 2's requirements: [Project 2](https://github.coecis.cornell.edu/info2300-sp2018/info2300-documents/blob/master/assignments/project-2/project-2.md) ([PDF](https://github.coecis.cornell.edu/info2300-sp2018/info2300-documents/blob/master/assignments/project-2/project-2.pdf)).
 
 # Submission Instructions
 
