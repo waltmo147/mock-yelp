@@ -26,8 +26,8 @@ Note: Forgetting to commit, push, or check your assignment before the deadline i
 
 I affirm my awareness of the standards of the Cornell Code of Academic Integrity.
 
-Full Name:
+Full Name: Yufu Mo
 
-Date:
+Date: 03/12/2018
 
 ---

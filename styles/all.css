@@ -1,0 +1,443 @@
+/* * {
+    margin-top: 0;
+    background-color: #39373a;
+} */
+html, body
+{
+  height: auto;
+}
+
+header {
+  text-align: center;
+}
+
+#index {
+  min-height: 960px;
+  height:100%;
+}
+
+input.price {
+  width: 40px;
+}
+
+input.tags {
+  margin-left: 29px;
+  width: 120px;
+}
+
+input.name {
+  margin-left: 20px;
+  width: 120px;
+}
+
+input.tags-insert {
+  margin-left: 39px;
+  width: 160px;
+}
+
+input.name-insert {
+  margin-left: 30px;
+  width: 160px;
+}
+
+input.location-insert {
+  margin: 8px 0px;
+  width: 260px;
+
+}
+
+input.price {
+  margin-left: 20px;
+  width: 40px;
+}
+
+#searchForm, #insertForm{
+  margin: 25px 5px 25px 5px;
+}
+
+button.filter {
+  margin: 10px;
+  width: 70px;
+  height: 35px;
+  font-size: 120%;
+  border-radius: 10px;
+}
+
+input.insert {
+  margin: 20px;
+  margin-bottom: 0;
+  width: 120px;
+  height: 35px;
+  font-size: 120%;
+  border-radius: 10px;
+}
+
+header {
+  width: 100%;
+  min-height: 120px;
+  background-color: #ffffff;
+}
+
+#content {
+  background-color: #39373a;
+  width: 100%;
+  height: 100%;
+  text-align:center;
+}
+
+div.super_container {
+  width: 1080px;
+  min-height: 960px;
+  padding: 15px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  display:inline-block;
+}
+
+div.main {
+  width: 640px;
+  margin: 30px;
+  background-color: white;
+  height: 100%;
+  float: left;
+  min-height: 960px;
+}
+
+div.side {
+  width: 270px;
+  margin: 30px;
+  min-height: 400px;
+  padding: 30px 25px;
+  padding-bottom: 5px;
+  background-color: #e6e6e6;
+  float: right;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div.search {
+  background-color: white;
+  float: right;
+  width: 320px;
+  margin: 30px;
+  height: 120px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.3125em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.restaurant_info {
+  margin: 0 15px;
+  padding: 15px 0;
+  min-height: 100px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.time_distance {
+  margin-top: 15px;
+  color: grey;
+  font-size: 14px;
+}
+
+.info {
+  width: 280px;
+  height: 100px;
+  float: left;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contact {
+  width: 170px;
+  height: 100px;
+  float: left;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.top-shelf-grey {
+  padding: 20px 40px;
+
+  background: #f5f5f5;
+  border-bottom: 1px solid #e6e6e6;
+  width: auto;
+  height: auto;
+  min-height: 120px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+
+a.red {
+  color: red;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: grey;
+  float: left;
+  position: relative;
+}
+
+select.sort {
+  width: 100px;
+  height: 25px;
+  font-size: 100%;
+  margin-left: 15px;
+}
+
+select.rating {
+  width: 60px;
+  height: 20px;
+  font-size: 80%;
+  margin-left: 10px;
+}
+
+div.filter {
+  width: 230px;
+  height: 40px;
+  text-align: left;
+  float: left;
+}
+
+div.insert {
+  width: 260px;
+  min-height: 40px;
+  float: left;
+  text-align: left;
+}
+
+div.short-insert {
+  width: 130px;
+  height: 40px;
+  text-align: left;
+  float: left;
+}
+
+a.name {
+  color: #0073bb;
+  font-size: 18px;
+  line-height: 1.3125em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div.name {
+  margin-bottom: 8px;
+}
+
+div.extra {
+  margin-top: 8px;
+}
+
+a.filter-title {
+  font-weight: normal;
+  font-size: 80%;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  font-size: 150%;
+  color: rgb(199, 94, 71);
+  font: 400 100px/1.3 'Oleo Script', Helvetica, sans-serif;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+a.price {
+  color: grey;
+  font-size: 15px;
+  line-height: 1.3125em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a.tags {
+  color: #0073bb;
+  font-size: 15px;
+  line-height: 1.3125em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+img {
+  /* position: relative; */
+  max-width: 150%;
+  max-height: 150%;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+}
+
+.rating-large {
+    position: relative;
+    overflow: hidden;
+}
+
+.i-stars {
+    background: url(https://s3-media2.fl.yelpcdn.com/assets/srv0/yelp_design_web/9b34e39ccbeb/assets/img/stars/stars.png) no-repeat;
+    background-size: 132px 560px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.i-stars--regular-0 {
+    width: 102px;
+    height: 18px;
+    background-position: 0 -222px;
+}
+
+.i-stars--regular-0-half {
+    width: 102px;
+    height: 18px;
+    background-position: 0 -240px;
+}
+.i-stars--regular-1 {
+    width: 102px;
+    height: 18px;
+    background-position: 0 -258px;
+}
+
+.i-stars--regular-1-half {
+    width: 102px;
+    height: 18px;
+    background-position: 0 -276px;
+}
+
+.i-stars--regular-2 {
+    width: 102px;
+    height: 18px;
+    background-position: 0 -294px;
+}
+
+.i-stars--regular-2-half {
+    width: 102px;
+    height: 18px;
+    background-position: 0 -312px;
+}
+
+.i-stars--regular-3 {
+    width: 102px;
+    height: 18px;
+    background-position: 0 -330px;
+}
+
+.i-stars--regular-3-half {
+    width: 102px;
+    height: 18px;
+    background-position: 0 -348px;
+}
+
+.i-stars--regular-4 {
+    width: 102px;
+    height: 18px;
+    background-position: 0 -366px;
+}
+
+.i-stars--regular-4-half {
+    width: 102px;
+    height: 18px;
+    background-position: 0 -384px;
+}
+
+.i-stars--regular-5 {
+    width: 102px;
+    height: 18px;
+    background-position: 0 -402px;
+}
+
+.refer {
+  /* display: inline; */
+  text-align: center;
+  padding-top: 0px;
+  min-width: 992px;
+  width: 100%;
+}
+
+.refer_a {
+  margin: 5px;
+  color: grey;
+  /* display: inline; */
+  /* text-align: center; */
+}
+
+div.icons {
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+
+}
+
+h3.page_footer {
+  font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+
+h3.page_header::before {
+  left: 0;
+}
+
+h3.page_header::after {
+  right: 0;
+}
+
+h3.page_header::before, h3.page_header::after {
+  position: absolute;
+  top: 50%;
+  width: 30%;
+  border-bottom: 5px solid rgba(0,0,0,0.25);
+  content: "";
+}
+
+h3.page_footer::before {
+  left: 0;
+}
+
+h3.page_footer::after {
+  right: 0;
+}
+
+h3.page_footer::before, h3.page_footer::after {
+  position: absolute;
+  top: 50%;
+  /* display: block; */
+  width: 30%;
+  border-bottom: 5px solid rgba(0,0,0,0.25);
+  content: "";
+}
+
+i.icons {
+  text-align: center;
+  font-size:48px;
+  color:black;
+  margin-left: 15px;
+  margin-right: 15px;
+
+  /* position: relative; */
+}
+
+footer {
+  background-color: white;
+}

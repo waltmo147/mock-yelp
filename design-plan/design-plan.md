@@ -24,9 +24,9 @@ Fields: name, picture, location, phone number, rating, price, tags(type).
 ## 3. Sketch & Wireframe
 
 [Insert your 1 sketch here.]
-![sketch](/images/sketch.png)
+![sketch](/images/sketch1.png)
 [Insert your 1 wireframe here.]
-![wireframe](/images/wireframe.png)
+![wireframe](/images/wireframe1.png)
 [Explain why your design would be effective for your persona. 1-3 sentences.]
 
 1) Because my sketches are based on pretty simple design, which is good for Abby since she rarely has spare time to learn how to use the website.
