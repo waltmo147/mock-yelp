@@ -114,7 +114,7 @@ function print_restaurants() {
     echo "</a></div><div class = 'i-stars ";
 
     if ($rat == NULL) {
-      echo htmlspecialchars($rating_arr[0]);
+      echo htmlspecialchars($rating_arr['0.0']);
     }
     else {
       echo htmlspecialchars($rating_arr[$rat]);
@@ -255,7 +255,7 @@ if (isset($_POST["submit_insert"])) {
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="styles/all.css" media="all" />
-  <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+  <!-- <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'> -->
 
   <title>Home</title>
 </head>
@@ -278,13 +278,11 @@ if (isset($_POST["submit_insert"])) {
               <div class = "filter">
                 <label>name </label>
                 <input class = "name" type="text" name="name"/>
-
               </div>
 
               <div class = "filter">
                 <label>tags </label>
                 <input class = "tags" type="text" name="tags"/>
-
               </div>
 
               <div class = "filter">
@@ -360,7 +358,6 @@ if (isset($_POST["submit_insert"])) {
           $restaurants = exec_sql_query($db, $sql, $params)->fetchAll();
 
           // sort the results
-
 
           print_restaurants();
           ?>
